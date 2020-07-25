@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Universidad</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header id="header" class="header container">
+      <div class="logo">
+        <img src="img/logo.jpg" id="logo" />
+      </div>
+      <div class="shopping-cart">
+        <img src="img/cart.png" class="img-cart" />
+        <div class="content hidden">
+          <table id="list-cart" class="">
+            <thead>
+              <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="img/curso1.jpg" />
+                </td>
+                <td class="distance">CSS Grid y Flexbox Construye + 10 Proyectos</td>
+                <td>$15</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#" class="boton">Vaciar Carrito</a>
+        </div>
+        <!--#carrito-->
+      </div>
+      <!--.carrito-->
+    </header>
+
+    <div class="hero">
+      <div class="content-hero container">
+        <h2>Aprende algo nuevo</h2>
+        <p>Todos los cursos a $15</p>
+        <form action="#" id="busqueda" method="post" class="formulario">
+          <input
+            class=""
+            type="text"
+            placeholder="¿Que te gustaría Aprender?"
+            id="search"
+          />
+          <input type="submit" id="submit-search" class="submit-search" />
+        </form>
+      </div>
+    </div>
+    <!--#hero-->
+
+    <div class="bar">
+      <div class="icons container">
+        <div class="icon icon1">
+          <p>
+            20,000 Cursos en línea <br />
+            Explora los temas más recientes
+          </p>
+        </div>
+        <div class="icon icon2">
+          <p>
+            Instructores Expertos <br />
+            Aprende con distintos estilos
+          </p>
+        </div>
+        <div class="icon icon3">
+          <p>
+            Acceso de por vida <br />
+            Aprende a tu ritmo
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="encabezado center">Cursos En Línea</h1>
+
+    <div class="courses container padding">
+      <div class="course">
+        <img class="image-course" src="img/curso1.jpg" />
+        <div class="info-course">
+          <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="1">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso2.jpg" />
+        <div class="info-course">
+          <h4>Curso de Comida Vegetariana</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price aling-margin1">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="2">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso3.jpg" />
+        <div class="info-course">
+          <h4>Guitarra para Principiantes</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price aling-margin1">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="3">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso4.jpg" />
+        <div class="info-course">
+          <h4>Huerto en tu casa</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price aling-margin2">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="4">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso5.jpg" />
+        <div class="info-course">
+          <h4>Decoración con productos de tu hogar</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="5">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso1.jpg" />
+        <div class="info-course">
+          <h4>Diseño Web para Principiantes</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="6">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.card-->
+      <div class="course">
+        <img class="image-course" src="img/curso2.jpg" />
+        <div class="info-course">
+          <h4>Comida Mexicana para principiantes</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="7">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso3.jpg" />
+        <div class="info-course">
+          <h4>Estudio Musical en tu casa</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="8">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso4.jpg" />
+        <div class="info-course">
+          <h4>Cosecha tus propias frutas y verduras</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="9">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso5.jpg" />
+        <div class="info-course">
+          <h4>Prepara galletas caseras</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="10">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso1.jpg" />
+        <div class="info-course">
+          <h4>JavaScript Moderno con ES6</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="11">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+      <div class="course">
+        <img class="image-course" src="img/curso2.jpg" />
+        <div class="info-course">
+          <h4>100 Recetas de Comida Natural</h4>
+          <p>Juan Pedro</p>
+          <img src="img/estrellas.png" />
+          <div class="price">
+            <p class="regular">$200</p>
+            <p class="offer">$15</p>
+          </div>
+          <a href="#" class="boton" data-id="12">Agregar Al Carrito</a>
+        </div>
+      </div>
+      <!--.course-->
+    </div>
+    <!--.cursos-->
+
+    <footer id="footer" class="footer padding">
+      <div class="container">
+        <div class="container-footer">
+          <nav id="principal" class="menu">
+            <a class="link" href="#">Para tu Negocio</a>
+            <a class="link" href="#">Conviertete en Instructor</a>
+            <a class="link" href="#">Aplicaciones Móviles</a>
+            <a class="link" href="#">Soporte</a>
+            <a class="link" href="#">Temas</a>
+          </nav>
+          <nav id="secundaria" class="menu">
+            <a class="link" href="#">¿Quienes Somos?</a>
+            <a class="link" href="#">Empleo</a>
+            <a class="link" href="#">Blog</a>
+          </nav>
+        </div>
+        <!--.container-footer-->
+      </div>
+      <!--.container-->
+    </footer>
+  </body>
+</html>
